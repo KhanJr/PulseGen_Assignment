@@ -202,6 +202,22 @@ def repair_json(broken_json):
     return step2
 ```
 
+## 🐳 Docker Build
+
+To build a Docker container for the application using the provided Dockerfile, run the following command in your project's root directory:
+
+```bash
+docker build -t module-extraction-agent:latest .
+```
+
+Once the build is complete, you can run the container using:
+
+```bash
+docker run -p 8501:8501 module-extraction-agent:latest
+```
+
+This command maps port 8501 inside the container (used by Streamlit) to port 8501 on your host machine.
+
 ## 📝 Known Limitations
 
 - Processing time scales with documentation size and complexity
@@ -211,11 +227,9 @@ def repair_json(broken_json):
 
 ## 🔮 Future Enhancements
 
-- Docker containerization for easy deployment
 - Support for additional document formats (PDF, Markdown)
 - Semantic chunking for more intelligent content processing
 - Answer caching mechanism for faster repeat queries
-- Confidence scores for extracted modules and submodules
 - API endpoints for headless operation
 
 ## 👥 Contributing
@@ -233,7 +247,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-
-_Created for the Pulse AI Assignment challenge_
-
-Sources
