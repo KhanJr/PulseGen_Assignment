@@ -121,7 +121,7 @@ fix-busted-json==0.1.0
 ### Starting the Application
 
 ```bash
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 ### Using the Interface
