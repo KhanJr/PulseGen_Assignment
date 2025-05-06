@@ -121,7 +121,7 @@ fix-busted-json==0.1.0
 ### Starting the Application
 
 ```bash
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 ### Using the Interface
@@ -232,15 +232,14 @@ This command maps port 8501 inside the container (used by Streamlit) to port 850
 - Answer caching mechanism for faster repeat queries
 - API endpoints for headless operation
 
-## 👥 Contributing
+## 📷 Media Assets
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This repository includes additional media assets:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add YourFeature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
+- **Directory Link**: [Link for images/screen recording](https://drive.google.com/drive/folders/1A3VVJHmrCMNcH_XieEkCjXWNj812xHPU?usp=sharing)
+- **Screen Recordings**: Refer to the `screen_recording/` folder for any screen recordings showcasing the application's usage and demonstration.
+
+To view these media files, navigate to the respective folders in your repository after cloning it.
 
 ## 📄 License
 
