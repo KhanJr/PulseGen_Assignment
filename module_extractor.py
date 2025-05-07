@@ -95,7 +95,6 @@ class ModuleExtractor:
                 continue
             # Check if the response is empty or not in the expected format
             if not is_Issue:
-                print("No modules found or response format is incorrect.")
                 all_results.extend(parsed_response.get("modules", []))
                 continue
 

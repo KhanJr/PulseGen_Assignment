@@ -19,7 +19,7 @@ def main():
         "Maximum crawl depth",
         min_value=1,
         max_value=5,
-        value=3,
+        value=1,
         help="How many links deep to crawl from the initial URL",
     )
 
